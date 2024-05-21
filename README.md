@@ -29,7 +29,7 @@ https://supercode.notion.site/Project-TS-Trinkgeldrechner-d37bd545188c44e2b9682b
 
 
 ## Screenshots
-![Example screenshot](.src/img/flowchart.png)
+![Example screenshot](src/img/flowchart.png)
 
 
 
