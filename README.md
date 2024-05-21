@@ -1,5 +1,5 @@
-# Project Name
-> Live demo [_here_](https://www.example.com).
+# Project TS-Trinkgeld-Rechner
+> Live demo [_here_](https://noctwo.github.io/project-trinkgeld-rechner/).
 
 ## Table of Contents
 * [General Info](#general-information)
