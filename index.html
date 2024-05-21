@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trinkgeld-Rechner</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator-wrapper">
+        <h1>Trinkgeldrechner</h1>
+        <label for="amount-input">€</label>
+        <input type="text" id="amount-input" name="amount-input" placeholder="Wie hoch war die Rechnung?">
+        <label for="persons-input">###</label>
+        <input type="text" id="persons-input" name="persons-input" placeholder="Wieviele Personen teilen die Rechnung?">
+        <p>Wie war der Service?</p>
+        <select id="selected-service">
+          <option>Gut</option>
+          <option>So mittel</option>
+          <option>Mies</option>
+        </select>
+        <button id="calculate-btn">Berechnen</button>
+        <div id="output-area"></div>
+      </div>
+    </main>
+   
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
