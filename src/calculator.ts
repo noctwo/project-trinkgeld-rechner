@@ -24,6 +24,7 @@ function getServiceRating (){
 
 function calculateTip (){
     getServiceRating ();
+    outputArea.innerHTML = "";
     let tipAmount = (Number(amountInput.value) / 100) * serviceRating;
     let totalBillAmount = (Number(amountInput.value)) + tipAmount;
     let amountPerPerson = totalBillAmount / Number(personsInput.value) ;
